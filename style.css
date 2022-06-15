@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #b06ab3, #4568dc);
+  gap: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(218, 199, 199, 0.1);
+  color: black;
+  text-align: center;
+  /* position: relative; */
+  border-radius: 5px;
+  width: 250px;
+  height: 600px;
+  gap: 100px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background: yellow;
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.vienas {
+  margin-top: 30px;
+  height: 500px;
+}
+
+.trys {
+  margin-top: 60px;
+  height: 400px;
+}
+
+img {
+  height: 30px;
+  background: yellow;
+}
